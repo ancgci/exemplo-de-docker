@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/exemplo-de-docker@v1
+        uses: exemplo-de-docker
         with:
           who-to-greet: Antonio Carlos
       # Use the output from the `hello` step
