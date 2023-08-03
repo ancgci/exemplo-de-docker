@@ -16,7 +16,7 @@ jobs:
         id: hello
         uses: action/exemplo-de-docker@v1
         with:
-          who-to-greet: Carlos Oliveira
+          who-to-greet: Antonio Garcia
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
